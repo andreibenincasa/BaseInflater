@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:enabled="true"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Account"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/nav_dashboard"
+            android:enabled="true"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="Dashboard"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/nav_settings"
+            android:enabled="true"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings"
+            app:showAsAction="always" />
+    </group>
+</menu>
